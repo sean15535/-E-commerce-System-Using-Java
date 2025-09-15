@@ -13,16 +13,17 @@ A minimal, console-based online store that illustrates proper Java package struc
 ---
 
 ## 📂 Project Layout
+```text
 project-root/
 │
 ├─ com/ecommerce/
-│ ├─ Product.java // immutable product value object
-│ └─ Customer.java // owns the shopping cart
+│  ├─ Product.java      // immutable product value object
+│  └─ Customer.java     // owns the shopping cart
 │
 ├─ com/ecommerce/orders/
-│ └─ Order.java // order entity & summary generation
+│  └─ Order.java        // order entity & summary generation
 │
-└─ Main.java // demo driver (default package)
+└─ Main.java            // demo driver (default package)
 
 
 ---
